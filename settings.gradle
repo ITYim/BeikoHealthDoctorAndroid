@@ -1,0 +1,5 @@
+include ':app', ':IMLib', ':IMKit'
+include ':httplib'
+project(":httplib").projectDir = new File('../BeikoHealthAndroid', 'httplib')
+include ':base'
+project(":base").projectDir = new File('../BeikoHealthAndroid', 'base')
